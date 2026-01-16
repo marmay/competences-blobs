@@ -110,7 +110,10 @@
 
 /* Component utilities can be added here if needed */
 @layer components {
-  /* Future: Add custom component classes here */
+  /* Hide MathJax assistive MathML (accessibility fallback that shows as text) */
+  mjx-assistive-mml {
+    display: none !important;
+  }
 }
 
 /* Custom utilities */
