@@ -98,10 +98,10 @@ newJSVal: (v) => __ghc_wasm_jsffi_jsval_manager.newJSVal(v),
 getJSVal: (k) => __ghc_wasm_jsffi_jsval_manager.getJSVal(k),
 freeJSVal: (k) => __ghc_wasm_jsffi_jsval_manager.freeJSVal(k),
 scheduleWork: () => setImmediate(__exports.rts_schedulerLoop),
-ZC0ZCcompetenceszmfrontendzm0zi8zi0zi0zminplaceZCCompetencesziFrontendziBinaryFFIZC: ($1,$2) => (new Uint8Array(new Uint8Array(__exports.memory.buffer, $1, $2))),
-ZC1ZCcompetenceszmfrontendzm0zi8zi0zi0zminplaceZCCompetencesziFrontendziBinaryFFIZC: ($1,$2) => ((new Uint8Array(__exports.memory.buffer, $2, $1.byteLength)).set($1)),
-ZC2ZCcompetenceszmfrontendzm0zi8zi0zi0zminplaceZCCompetencesziFrontendziBinaryFFIZC: ($1) => ($1.byteLength),
-ZC3ZCcompetenceszmfrontendzm0zi8zi0zi0zminplaceZCCompetencesziFrontendziBinaryFFIZC: ($1) => (new Uint8Array($1)),
+ZC0ZCcompetenceszmfrontendzm0zi8zi1zi0zminplaceZCCompetencesziFrontendziBinaryFFIZC: ($1,$2) => (new Uint8Array(new Uint8Array(__exports.memory.buffer, $1, $2))),
+ZC1ZCcompetenceszmfrontendzm0zi8zi1zi0zminplaceZCCompetencesziFrontendziBinaryFFIZC: ($1,$2) => ((new Uint8Array(__exports.memory.buffer, $2, $1.byteLength)).set($1)),
+ZC2ZCcompetenceszmfrontendzm0zi8zi1zi0zminplaceZCCompetencesziFrontendziBinaryFFIZC: ($1) => ($1.byteLength),
+ZC3ZCcompetenceszmfrontendzm0zi8zi1zi0zminplaceZCCompetencesziFrontendziBinaryFFIZC: ($1) => (new Uint8Array($1)),
 ZC0ZCmisozm1zi9zi0zi0zm99b59ec4e15fb90f2c3d07d9f3fd098ea65b74503fbb3a4abc82b2dde5d23a3dZCMisoZC: async () => {// ts/miso/dom.ts
 function diff(c, n, parent, context) {
   if (!c && !n)
